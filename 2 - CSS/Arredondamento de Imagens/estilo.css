@@ -1,0 +1,28 @@
+.caixa {
+	width: 400px;
+	background: #dedede url(imagens/fundo-arredondamento.png) repeat-y;
+
+}
+.caixa h2 {
+	padding: 10px 20px 0 20px;
+	background: url(imagens/topo2.png) no-repeat left top;
+}
+
+.caixa p {
+	padding: 0 20px;
+}
+
+/*não é necessário colocar a classe
+ ultimo sempre no ultimo paragrafo, 
+ basta criar uma div vazia entre a div 
+ e paragrafos e colocar a classe lá*/
+
+.caixa .ultimo {
+	padding-bottom: 20px;
+	background: url(imagens/baixo2.png) no-repeat left bottom;
+}
+
+/*.caixa p {
+	padding: 0px 20px 20px 20px;
+	background: url(imagens/baixo2.png) no-repeat left bottom;
+}*/

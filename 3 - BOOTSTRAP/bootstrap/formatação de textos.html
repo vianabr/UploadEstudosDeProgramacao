@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <title>Princípios do Bootstrap</title>
+  </head>
+  <body style="margin-bottom: 200px; padding: 16px;">
+
+    <h1>FORMATAÇÃO DE TEXTO</h1>
+
+    <!-- cabeçalhos tem formatação própria no bootstrap, porém, se adicionarmos uma class com outro cabeçalho diferente, o cabeçalho editado adotará a formatação do cabeçalho informado na class-->
+    <h1>Cabeçalho 1</h1>
+    <h2>Cabeçalho 2</h2>
+    <h3>Cabeçalho 3</h3>
+    <h4>Cabeçalho 4</h4>
+    <h5 class="h1">Cabeçalho 5</h5>
+    <h6>Cabeçalho 6</h6>
+
+    <br>
+    <hr>
+    <!--Pode ser utilizado também a classe display do 1 ao 4, mudando o tamanho e um pouco da forma dos textos, deixando-os maiores e ligeiramente mais finos-->
+    <h1 class="display-1">Display 1</h1>
+    <h1 class="display-2">Display 2</h1>
+    <h1 class="display-3">Display 3</h1>
+    <h1 class="display-4">Display 4</h1>
+
+    <br>
+    <hr>
+    <!--Podemos utilizar a class lead em qualquer texto, porém, diferente dos últimos exemplos, este fica apenas um pouco maior que um texto normal e mais destacado, sendo muito usado em parágrafos.-->
+    <p class="lead">Vivamus eleifend neque et malesuada volutpat. Phasellus hendrerit mauris a justo sodales mollis. Duis commodo magna dui, eu varius magna vehicula id. Ut tempus bibendum quam, nec interdum augue tempus eu. Maecenas tristique mauris vitae tempor faucibus. Mauris purus metus, aliquet non lorem pretium, iaculis lacinia elit. Nulla a est ac felis sollicitudin vestibulum laoreet ac augue.</p>
+
+    <p>Vivamus eleifend neque et malesuada volutpat. Phasellus hendrerit mauris a justo sodales mollis. Duis commodo magna dui, eu varius magna vehicula id. Ut tempus bibendum quam, nec interdum augue tempus eu. Maecenas tristique mauris vitae tempor faucibus. Mauris purus metus, aliquet non lorem pretium, iaculis lacinia elit. Nulla a est ac felis sollicitudin vestibulum laoreet ac augue.</p>
+
+    <br>
+    <hr>
+    <!--Podemos utilizar a class text-monospace, onde as letras simulam a escrita da máquina de escrever-->
+    <p class="text-monospace">Vivamus eleifend neque et malesuada volutpat. Phasellus hendrerit mauris a justo sodales mollis. Duis commodo magna dui, eu varius magna vehicula id. Ut tempus bibendum quam, nec interdum augue tempus eu. Maecenas tristique mauris vitae tempor faucibus.</p>
+
+    <br>
+    <hr>
+    <!--Também podemos fazer uso das classes de estilo, onde podemos selecionar estilos como negrito (font-weight-bold), normal (font-weight-normal) e itálico (font-italic)-->
+
+    <p class="font-weight-bold">Texto em negrito</p>
+    <p class="font-weight-normal">Texto normal</p>
+    <p class="font-italic">Texto em itálico</p>
+    
+    <br>
+    <hr>
+    <!--Podemos também fazer transformações em texto, deixando totalmente maiuscula, totalmente minuscula e somente a primeira letra de cada palavra maiuscula (BEM ÚTIL)-->
+
+    <p class="text-uppercase">letras maiúsculas</p>
+    <p class="text-lowercase">LETRAS MINÚSCULAS</p>
+    <p class="text-capitalize">primeira maiúscula</p>
+
+    <br>
+    <hr>
+    <!--Também é possível definir o alinhamento do texto-->
+    <p class="text-right">Direita</p>
+    <p class="text-left">Esquerda</p>
+    <p class="text-center">Centralizado</p>
+
+    <br>
+    <hr>
+    <!--É possível criar também um bloco de citação, onde podemos adicionar um comentário e logo em seguida adicionar um rodapé que conterá o autor do comentário-->
+    <blockquote>
+      <p>Etiam eu dui sapien. Suspendisse potenti. Nulla tincidunt justo non augue auctor, blandit cursus erat rhoncus. Vestibulum in arcu efficitur, condimentum justo sit amet, iaculis orci. Sed a dictum felis. Aenean tincidunt massa mollis massa dictum, ut placerat magna pulvinar. Nunc eget accumsan libero.</p>
+      <footer class="blockquote-footer"> Por
+        <cite>Bruno Viana</cite>
+      </footer>
+    </blockquote>
+
+    <br>
+    <hr>
+    <!--Em determinadas situações, talvez queira cortar a exibição completa de um grande texto, por questões estéticas, caso o usuário tenha interesse em ler poderá incluir uma mini janela flutuante onde poderá ler o texto completo, ou de repente inserir um "ver mais" com o link para ler o texto completo em outra parte do site. A mini janela e o link veremos mais pra frente. Veja que essa opção pode variar dependendo do navegador-->
+
+    <p class="text-truncate">Vivamus eleifend neque et malesuada volutpat. Phasellus hendrerit mauris a justo sodales mollis. Duis commodo magna dui, eu varius magna vehicula id. Ut tempus bibendum quam, nec interdum augue tempus eu. Maecenas tristique mauris vitae tempor faucibus. Mauris purus metus, aliquet non lorem pretium, iaculis lacinia elit. Nulla a est ac felis sollicitudin vestibulum laoreet ac augue.</p>
+
+    <br>
+    <hr>
+    <!--Listas-->
+    <!--Listas sem estilo normal-->
+    <ul class="list-unstyled">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+    <!--Listas sem estilo Inline-->
+    <ul class="list-inline">
+      <li class="list-inline-item">Item 1</li>
+      <li class="list-inline-item">Item 2</li>
+      <li class="list-inline-item">Item 3</li>
+    </ul>
+    
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="css/bootstrap.min.js"></script>
+  </body>
+</html>

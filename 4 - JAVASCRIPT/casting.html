@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>casting-javascript</title>
+	<script>
+		
+		var variavel1 = prompt('Digite um número')
+		var variavel2 = prompt('Digite outro número')
+
+		variavel1 = parseInt(variavel1)
+		variavel2 = parseFloat(variavel2)
+
+		//parseInt - Apenas números inteiros
+		//parseFloat - Números fracionários
+
+		document.write(variavel1 + variavel2) 
+		/* Ao utilizar variavel com prompt para digitar números, o valor inserido será apenas considerado como uma string, então caso tente fazer alguma operação aritimética como somar (veja o exemplo document.write) ele apenas vai concatenar (juntar) os dois valores.
+		Para que o navegador entenda que aqueles valores são números use parseInt ou parseFloat e o navegador fará a operação aritimética desejada*/
+
+
+
+		/*_____________________*/
+
+		/*Caso deseje forçar o navegador a interpretar um número como string faça como o exemplo abaixo utilizando .toString(), Note que neste exemplo não há prompt, na variável foi colocado um valor automaticamente numérico*/
+
+		/*var variavel1 = 10
+		var variavel2 = 20*/
+
+        //document.write(variavel1.toString() + variavel2.toString()) 
+	</script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Cream Cake';
+    src: url('CreamCake.woff2') format('woff2'),
+        url('CreamCake.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

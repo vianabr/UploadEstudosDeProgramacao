@@ -1,0 +1,106 @@
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #f2f2f2;
+}
+
+#container {
+	width: 90%; /*720px;*/
+	margin: 0 auto;
+	background: #fff;
+	min-width: 720px;
+	max-width: 960px;
+}
+
+#marca {
+	width: 100%;
+	height: 200px;
+	background: #225992 url(imagens/cabecalho2.jpg) no-repeat center;
+	text-align: center;
+	line-height: 200px;
+}
+
+/*#imagem {
+	width: 90%;
+	overflow: hidden;
+}*/
+
+#conteudo {
+	width: 80%; /*520px;*/
+	float: right;
+}
+
+#principal {
+	width: 60% ; /*320px;*/
+	padding-left: 10px;
+	margin-left: 50px;
+	float: left;
+	text-align: center;
+}
+
+#secundario {
+	width: 20%; /*180px;*/
+	float: right;
+	text-align: center;
+	background: #d1d1d1;
+}
+
+#secundario h2,
+#secundario p {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#navegacao {
+
+	width: 20%; /*200px;*/
+	float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #FFD760;
+    }
+
+#rodape {
+	width: 100%;
+	clear: both;
+	background: #c4c4c4;
+	padding: 5px;
+}
+
+img.imagem {
+	width: 90%;
+	padding: 2%;
+	max-width: 600px;
+}
+
+/****MENU VERTICAL****/
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+ul a {
+	/*border: 1px solid red;*/
+	width: 200px;
+	height: 40px;
+	display: block;
+	color: #000;
+	text-decoration: none;
+	text-indent: 40px;
+	line-height: 40px;
+	background:url(imagens/menu.png)  no-repeat left  bottom;
+}
+
+a:hover {
+	background-position: right bottom;
+	background-color: #f99200;
+	color: #fff;
+}
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a {
+	background-position: right bottom;
+	background-color: #f99200;
+	color: #fff;
+}

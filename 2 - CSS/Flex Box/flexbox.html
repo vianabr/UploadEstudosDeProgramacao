@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+	<meta charset="utf-8">
+	<title> Flexbox - Flexible Box Layout</title>
+
+	<style type="text/css">
+		#conteudo {
+			background: #dcdcdc;
+			width: 400px;
+			height: 400px;
+			display: flex;
+
+			/*row (padrão) 
+			|row-reverse (invertido)
+			|column (itens na vertical) |column-reverse(itens na vertical invertido)*/
+
+			flex-direction: row;
+
+			/*nowrap (padrão, garante que os itens caberão dentro da div sem quebra de linha, não se impotando com o tamanho desses itens)
+			wrap (leva em conta o tamanho dos itens podendo ter quebras de linha)
+			wrap-reverse (igual ao wrap, porém os itens ficam ao contrário*/
+			flex-wrap: nowrap;
+
+			/*flex-start (padrão, conteudo fica a esquerda, no começo)
+			flex-end (conteudo fica a direita, no fim)
+			center (conteudo centralizado)
+			space-between (itens distribuidos, podendo ter espaçamento entre eles, primeiro e ultimo item ficarão colados nas bordas)
+			space-around(igual ao space-between, porém primeiro e ultimo item tem espaçamento das bordas) */
+
+			justify-content: space-around;
+
+			/*stretch (itens serão esticados até alcançar a altura total)
+			center (itens ficarão centralizados na div)
+			flex-start (itens ficam colados no topo)
+			flex-end (itens colados embaixo)
+			baseline (itens ficarão alinhados de acordo com o inicio do texto/conteudo que dentro deles, se por exemplo um dos itens for muito comprido eles estarão alinhados pelo conteúdo)*/
+            align-items: ;
+
+		}
+
+		.item {
+			width: 100px;
+			height: 100px;
+			margin: 10px;
+			background: white;
+			border: 1px solid gray;
+
+		}
+	</style>
+</head>
+<body>
+
+	<h1>Flexbox</h1>
+	<div id="conteudo">
+		<div class="item">01</div>
+		<div class="item">02</div>
+		<div class="item">03</div>
+		<div class="item">04</div>
+	</div>
+
+</body>
+</html>

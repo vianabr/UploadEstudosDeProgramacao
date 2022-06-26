@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+
+    <title>Bootstrap - Sistema de grids</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style type="text/css">
+      
+      .marcador {
+        background: #fe9d9d;
+        border: 1px solid #f94646;
+      }
+
+      .marcador-container {
+        background: #5bf946;
+        border: 1px solid #36ae26;
+    </style>
+
+
+  </head>
+
+  <!--
+   https://getbootstrap.com.br/docs/4.1/layout/grid/
+
+  O bootstrap tem um sistema que facilita muito na hora de criar um projeto: "o sistema de grids".
+    Para poder fazer uso disso é necessário usar várias divs, uma principal,com a class "container", que comportará todas as outras, outra intermediária com a class "row", que irá determinar a linha e espaço a ser utilizado e uma div para cada elemento com a class "col-,col-sm-,col-md-,col-lg- ou col-xl- (+ numero 1 a 12)".
+    Utilizando diferentes "col-" irá determinar a formatação específica para cada tamanho de tela.
+
+  Quando se fala de grids, passamos a contar colunas, de 1 a 12, usando 12, o elemento irá ocupar toda a área total.
+
+  -->
+
+  <body>
+    <div class="container marcador-container">
+
+      <div class="row">
+
+      <div class="marcador col-sm-6">
+      <h2>Lorem ipsum dolor sit amet</h2>
+      <p> consectetur adipiscing elit. Pellentesque luctus enim nunc, quis dignissim metus semper et. Vivamus ultricies scelerisque felis id ultricies. Pellentesque elit massa, volutpat id sagittis in, facilisis non augue. Aenean ac posuere enim. Duis pulvinar elementum commodo. Sed elementum lorem tellus, nec dapibus ante vulputate sit amet. Aenean sit amet scelerisque mauris.</p>
+
+      <button class="btn btn-warning"> Leia Mais </button>
+    </div>
+
+
+      <div class="marcador col-sm-6 ">
+      <h2>Lorem ipsum dolor sit amet</h2>
+
+       <p>consectetur adipiscing elit. Pellentesque luctus enim nunc, quis dignissim metus semper et. Vivamus ultricies scelerisque felis id ultricies. Pellentesque elit massa, volutpat id sagittis in, facilisis non augue. Aenean ac posuere enim. Duis pulvinar elementum commodo. Sed elementum lorem tellus, nec dapibus ante vulputate sit amet. Aenean sit amet scelerisque mauris</p>
+       <button class="btn btn-warning"> Leia Mais </button>
+    </div>
+
+    <div class="marcador col-sm-6 ">
+      <h2>Lorem ipsum dolor sit amet</h2>
+
+       <p>consectetur adipiscing elit. Pellentesque luctus enim nunc, quis dignissim metus semper et. Vivamus ultricies scelerisque felis id ultricies. Pellentesque elit massa, volutpat id sagittis in, facilisis non augue. Aenean ac posuere enim. Duis pulvinar elementum commodo. Sed elementum lorem tellus, nec dapibus ante vulputate sit amet. Aenean sit amet scelerisque mauris</p>
+       <button class="btn btn-warning"> Leia Mais </button>
+    </div>
+      
+    </div>
+
+    </div>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

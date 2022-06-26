@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>operadores aritiméticos - js</title>
+
+	<script> 
+
+		/*OPERADORES ARITIMÉTICOS BÁSICOS
+
+		ADIÇÃO (+) =  Soma de valores (ou concatenação se string);
+		SUBTRAÇÃO (-) = Diferença entre valores;
+		MULTIPLICAÇÃO (*) = Produto dos valores;
+		DIVISÃO (/) = Quociente dos valores
+		MÓDULO (%) = Resto existente em uma operação de divisão (7/2= 3 retorna 1)
+		INCREMENTO (++) = Pré/Pós incremento (Adiciona +1 antes ou depois
+		DECREMENTO (--) = Pré/Pós decremento (Retira -1 antes ou depois)
+
+	*/
+		var num1 = prompt('Digite o valor de num1')
+		var num2 = prompt('Digite o valor de num2')
+
+		num1 = parseInt(num1)
+		num2 = parseInt(num2)
+
+		document.write(' A soma entre ' +num1+ ' e ' +num2+ 'é:' + (num1 + num2) + '<br />')
+		document.write(' A subtração entre ' +num1+ ' e ' +num2+ 'é:' + (num1 - num2) + '<br />')
+		document.write(' A multiplicação entre ' +num1+ ' e ' +num2+ 'é:' + (num1 * num2) + '<br />')
+		document.write(' A divisão entre ' +num1+ ' e ' +num2+ 'é:' + (num1 / num2) + '<br />')
+		document.write(' O módulo entre ' +num1+ ' e ' +num2+ 'é:' + (num1 % num2) + '<br />')
+		//No módulo, só é possível 2 resultados, 0 ou 1, se a divisão sobrar (número com virgula) retorna o valor 1, se for um valor exato retorna 0
+
+		document.write(' O incremento de ' +num1+ 'é:' + (++num1) + '<br />')
+		document.write(' O decremento de ' +num1+ 'é:' + (--num1) + '<br />')
+		document.write(num1)
+
+		
+		
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

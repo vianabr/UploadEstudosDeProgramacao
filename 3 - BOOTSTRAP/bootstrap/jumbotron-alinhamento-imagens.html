@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+
+    <title>Bootstrap - Jumbotron e alinhamento de imagens</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  </head>
+
+  <body style="margin-bottom: 200px;padding: 16px;">
+
+    <!-- Com o jumbotron, poderá fazer uma ampla area de destaque presente em muitos sites, usando também a class container, você deixa todo o conteúdo da jumbotron mais responsivo-->
+
+    
+    <h3 class="border-bottom">jumbotron</h3>
+    <div class="jumbotron text-center">
+      <div class="container">
+        <h1 class="display-4">Música para todos.</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <a href="">Leia mais</a>
+      </div>
+    </div>
+
+    <h3 class="border-bottom">Estrutura para imagens</h3>
+
+    <!--Usando a class media, fazemos com que a imagem saia de sua posição padrão acima do texto e vá para o lado esquerdo, usando media body, voce indica que o texto com esta classe é o corpo da class media-->
+    <div class="media">
+      <img class="mr-3" src="https://source.unsplash.com/random/60x60">
+      <div class="media-body">
+        <h5>Título do conteúdo</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
+      </div>
+    </div>
+
+    <br><br>
+
+    <h3 class="border-bottom">Alinhamentos: align-self-ALINHAMENTO (start, center, end) </h3>
+
+    <!-- O alinhamento de imagem se refere ao pequeno espaço que a imagem ocupa dentro da class media, assim, voce poderá deixála no topo centro ou base-->
+
+    <div class="media">
+      <img class="mr-3 align-self-center" src="https://source.unsplash.com/random/60x60">
+      <div class="media-body border"> <!-- Use border, caso não seja possível, talvez seja necessário usar a classe mb-0 para remover a margin da base, o que pode prejudicaro alinhamento da imagem-->
+        <h5>Título do conteúdo</h5>
+        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
+      </div>
+    </div>
+
+    <br> <br>
+    
+
+    <h3 class="border-bottom">Listas com imagens</h3>
+
+    <!-- O mesmo conceito de estrutura de imagens porém utilizando listas, onde cada item pode ser repetido dentro da ul-->
+    <ul class="list-unstyled">
+      
+      <li class="media border-bottom pb-2 pt-2">
+        <img class="mr-2 align-self-center" src="https://source.unsplash.com/random/80x80">
+        <div class="media-body">
+          <h5>Título do conteúdo</h5>
+          <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl.</p>
+          </div>
+      </li>
+
+            <li class="media border-bottom pb-2 pt-2">
+        <img class="mr-2 align-self-center" src="https://source.unsplash.com/random/81x81">
+        <div class="media-body">
+          <h5>Título do conteúdo</h5>
+          <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl.</p>
+          </div>
+      </li>
+
+    </ul>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
